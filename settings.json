@@ -1,46 +1,28 @@
 {
-    // basic configs
-    // exts: 
-    //
-    // Eslint
-    // Git history
-    // Gitlens
-    // Ruby
-    // Ruby Solargraph -- install: gem install solargraph
-    // TODO highlight
-    // Wakatime
-    // Scheme
-    // Elixir support
-    // Vetur -- vue tool
-    // c#
-    // Rustup
-    
-    "workbench.sideBar.location": "right",
-
-
-
-    "editor.fontFamily": "IBM Plex Mono, Monaco, 'Courier New', monospace",
-    "editor.fontSize": 12,
     "editor.tabSize": 2,
-    "editor.renderWhitespace": "boundary",
     "editor.cursorStyle": "block",
-    "editor.fontWeight": "bold",
-    "editor.wordWrap": "on",
+    "editor.renderWhitespace": "boundary",
+    "editor.fontSize": 11,
+    "editor.minimap.maxColumn": 80,
+    "editor.fontFamily": "Fira Code",
 
-    "todohighlight.keywords": [
-        "DEBUG:",
-        "REVIEW:",
-        {
-            "text": "NOTE:",
-            "color": "#ff0000",
-            "backgroundColor": "yellow",
-            "overviewRulerColor": "grey"
-        },
-        {
-            "text": "BUILD",
-            "color": "#ff3b00",
-            "backgroundColor": "#72ffde",
-            "overviewRulerColor": "grey"
-        }
-    ],
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Gruvbox Minor Dark Hard",
+    "vsicons.dontShowNewVersionMessage": true,
+    "window.zoomLevel": 1,
+
+    "todo-tree.tree.showScanModeButton": false,
+
+    // windows settings
+    "terminal.external.windowsExec": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+    "terminal.integrated.shell.windows": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+    "terminal.explorerKind": "external",
+    "explorer.confirmDragAndDrop": false,
+
+    // Vetur config
+    "vetur.ignoreProjectWarning": true, // remove o warning de 'cant find tsconfig, jsconfig'
+
+    "files.associations": {
+        "*.rbs": "ruby",
+    }
 }
